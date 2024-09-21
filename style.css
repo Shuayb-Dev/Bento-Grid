@@ -4,11 +4,11 @@ body {
   display: flex;
   justify-content: center;
   min-height: 100vh;
+  background-color: hsl(0, 0%, 96%);
 }
 
 .parent {
   align-items: stretch; /* Ensure items stretch to fill the grid cells */
-  border-radius: 8px;
   display: grid;
   gap: 30px;
   grid-template-columns: repeat(4, 1fr);
@@ -16,13 +16,13 @@ body {
   height: 700px;
   justify-items: stretch; /* Ensure items stretch to fill the grid cells */
   width: 900px;
-  background-color: hsl(0, 0%, 96%);
+  position: relative;
+  bottom: 100px;
 }
 
 .child {
   background: hsl(210deg 15% 20%);
-  border-radius: 3px;
-  border: 2px solid hsl(210deg 8% 50%);
+  border-radius: 10px !important;
   color: white;
   height: 100%; /* Ensure height is 100% of grid cell */
   height: 100px;
@@ -205,16 +205,30 @@ img {
 .child:nth-child(6) {
   grid-column: 1;
   grid-row: 3/5;
-  height: 320px;
+  height: 380px;
+  width: 95%;
   background-color: hsl(40, 100%, 71%);
+  font-family: "DM Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: black;
+  position: relative;
+  bottom: 130px;
+}
+
+.child:nth-child(6) img {
+  width: 180px;
 }
 
 .child:nth-child(7) {
   grid-column: 2;
   grid-row: 4;
-  height: 100%;
+  height: 110%;
   background-color: white;
   color: black;
+  position: relative;
+  bottom: 150px;
+  border-style: none;
 }
 
 .child:nth-child(8) {
@@ -222,4 +236,6 @@ img {
   grid-row: 4;
   height: 100%;
   background-color: hsl(256, 67%, 59%);
+  position: relative;
+  bottom: 150px;
 }
