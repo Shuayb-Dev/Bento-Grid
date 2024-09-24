@@ -154,7 +154,7 @@ body {
   background-color: white;
   color: black;
   font-family: "DM Sans", sans-serif;
-  font-weight: 400;
+  font-weight: 550;
   font-size: 1.5rem;
   overflow: hidden;
   height: 131%;
@@ -178,7 +178,7 @@ img {
   background-color: hsl(40, 100%, 71%);
   color: black;
   font-family: "DM Sans", sans-serif;
-  font-weight: 400;
+  font-weight: 550;
   font-size: 1.5rem;
   overflow: hidden;
   height: 131%;
@@ -221,6 +221,9 @@ img {
 }
 
 .child:nth-child(7) {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   grid-column: 2;
   grid-row: 4;
   height: 110%;
@@ -229,13 +232,42 @@ img {
   position: relative;
   bottom: 150px;
   border-style: none;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+.child:nth-child(7) span {
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+.child:nth-child(7) img {
+  width: 150px;
 }
 
 .child:nth-child(8) {
+  display: flex;
+  flex-direction: row;
   grid-column: 3/5;
   grid-row: 4;
-  height: 100%;
+  height: 109%;
   background-color: hsl(256, 67%, 59%);
   position: relative;
   bottom: 150px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 550;
+  font-size: 1.8rem;
+  line-height: 25px;
+}
+
+.child:nth-child(8) p {
+  position: relative;
+  top: 35px;
+}
+
+.child:nth-child(8) img {
+  width: 180px;
+  height: 160px;
+  position: relative;
+  top: 15px;
+  left: -5px;
 }
