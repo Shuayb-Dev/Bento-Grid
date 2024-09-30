@@ -271,3 +271,140 @@ img {
   top: 15px;
   left: -5px;
 }
+
+.mobile_parent {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .parent {
+    display: none;
+  }
+
+  .child {
+    display: none;
+  }
+
+  .mobile_parent {
+    align-items: center;
+    border-radius: 10px;
+    border: solid 1px red;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 1400px;
+    justify-content: center;
+    min-height: 100vh;
+    width: 400px;
+  }
+
+  .child_mobile_one {
+    background-color: hsl(258, 49%, 56%);
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    display: flex;
+    flex-direction: column; /* Arrange elements in a column */
+    font-family: "DM Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 450;
+    height: 320px;
+    letter-spacing: -0.1em;
+    padding-bottom: 45px;
+    padding: 10px;
+    text-align: center; /* Center text within the flex items */
+    width: 80%;
+  }
+
+  .child_mobile_one span {
+    color: hsl(31, 71%, 73%);
+  }
+
+  .child_mobile_one img {
+    align-self: center;
+    bottom: 20px;
+    height: 80px;
+    position: relative;
+    width: 160px;
+  }
+
+  .child_mobile_two {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    background-color: white;
+    color: black;
+    position: relative;
+    border-style: none;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    border-radius: 10px;
+  }
+
+  .child_mobile_two p {
+    position: relative;
+    left: 10px;
+  }
+
+  .child_mobile_two span {
+    font-size: 2.8rem;
+    font-weight: 500;
+  }
+  .child_mobile_two img {
+    width: 300px;
+  }
+
+  .mobile_child_three {
+    height: 260px;
+    width: 85%;
+    background-color: hsl(40, 100%, 71%);
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: black;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
+  .mobile_child_three p,
+  img {
+    position: relative;
+    left: 10px;
+  }
+
+  .mobile_child_three img {
+    width: 240px;
+    position: relative;
+    bottom: 1px;
+  }
+
+  .mobile_child_four {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: hsl(255, 88%, 90%);
+    border-radius: 3px;
+    border: none;
+    color: black;
+    font-family: "DM Sans", sans-serif;
+    overflow: hidden;
+    position: relative;
+    width: 85%;
+    border-radius: 10px;
+  }
+
+  .mobile_child_four img {
+    width: 280px;
+    position: relative;
+    left: 25px;
+  }
+
+  .title-two {
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    top: 15px;
+  }
+}
