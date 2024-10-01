@@ -288,11 +288,10 @@ img {
   .mobile_parent {
     align-items: center;
     border-radius: 10px;
-    border: solid 1px red;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    height: 1400px;
+    height: 2500px;
     justify-content: center;
     min-height: 100vh;
     width: 400px;
@@ -329,17 +328,17 @@ img {
   }
 
   .child_mobile_two {
+    background-color: white;
+    border-radius: 10px;
+    border-style: none;
+    color: black;
     display: flex;
     flex-direction: column;
-    width: 85%;
-    background-color: white;
-    color: black;
-    position: relative;
-    border-style: none;
     font-family: "DM Sans", sans-serif;
-    font-weight: 400;
     font-size: 1.5rem;
-    border-radius: 10px;
+    font-weight: 400;
+    position: relative;
+    width: 85%;
   }
 
   .child_mobile_two p {
@@ -356,49 +355,48 @@ img {
   }
 
   .mobile_child_three {
-    height: 260px;
-    width: 85%;
     background-color: hsl(40, 100%, 71%);
+    border-radius: 10px;
+    color: black;
     font-family: "DM Sans", sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
-    color: black;
-    position: relative;
+    height: 260px;
     overflow: hidden;
-    border-radius: 10px;
+    position: relative;
+    width: 85%;
   }
 
   .mobile_child_three p,
   img {
-    position: relative;
     left: 10px;
+    position: relative;
   }
 
   .mobile_child_three img {
-    width: 240px;
-    position: relative;
     bottom: 1px;
+    position: relative;
+    width: 240px;
   }
 
   .mobile_child_four {
+    background-color: hsl(255, 88%, 90%);
+    border-radius: 10px;
+    color: black;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    background-color: hsl(255, 88%, 90%);
-    border-radius: 3px;
-    border: none;
-    color: black;
     font-family: "DM Sans", sans-serif;
-    overflow: hidden;
+
     position: relative;
+    text-align: center;
     width: 85%;
-    border-radius: 10px;
   }
 
   .mobile_child_four img {
-    width: 280px;
-    position: relative;
     left: 25px;
+    position: relative;
+    width: 280px;
   }
 
   .title-two {
@@ -406,5 +404,103 @@ img {
     font-weight: 500;
     position: relative;
     top: 15px;
+  }
+
+  .mobile_child_five {
+    align-items: center;
+    background-color: hsl(256, 67%, 59%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 550;
+    line-height: 25px;
+    position: relative;
+    text-align: center;
+    width: 85%;
+  }
+
+  .mobile_child_five p {
+    color: white;
+  }
+
+  .mobile_child_five img {
+    height: 160px;
+    position: relative;
+    top: 10px;
+    width: 180px;
+  }
+
+  .mobile_child_six {
+    background-color: white;
+    border-radius: 10px;
+    border-style: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-family: "DM Sans", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    height: 200px;
+    position: relative;
+    text-align: left;
+    width: 85%;
+  }
+  .mobile_child_six span {
+    font-size: 2.8rem;
+    font-weight: 500;
+  }
+  .mobile_child_six img {
+    width: 150px;
+  }
+
+  .mobile_child_seven {
+    background-color: hsl(30, 71%, 93%);
+    border-style: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-family: "DM Sans", sans-serif;
+    font-size: 2rem;
+    font-weight: 450;
+
+    padding-bottom: 45px;
+    padding: 10px;
+    text-align: left;
+    width: 85%;
+  }
+
+  .mobile_child_seven span {
+    color: hsl(258, 49%, 56%);
+  }
+
+  .mobile_child_seven img {
+    align-self: left;
+    bottom: 20px;
+    height: 80px;
+    position: relative;
+    width: 160px;
+  }
+
+  .mobile_child_eight {
+    height: 380px;
+    width: 95%;
+    background-color: hsl(40, 100%, 71%);
+    font-family: "DM Sans", sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    color: black;
+    border-radius: 10px;
+  }
+
+  .mobile_child_eight img {
+    width: 180px;
+  }
+
+  .mobile_child_eight p,
+  img {
+    position: relative;
+    left: 20px;
   }
 }
