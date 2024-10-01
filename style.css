@@ -312,7 +312,7 @@ img {
     padding-bottom: 45px;
     padding: 10px;
     text-align: center; /* Center text within the flex items */
-    width: 80%;
+    width: 75%;
   }
 
   .child_mobile_one span {
@@ -335,10 +335,10 @@ img {
     display: flex;
     flex-direction: column;
     font-family: "DM Sans", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 400;
     position: relative;
-    width: 85%;
+    width: 75%;
   }
 
   .child_mobile_two p {
@@ -347,11 +347,11 @@ img {
   }
 
   .child_mobile_two span {
-    font-size: 2.8rem;
+    font-size: 1.4rem;
     font-weight: 500;
   }
   .child_mobile_two img {
-    width: 300px;
+    width: 250px;
   }
 
   .mobile_child_three {
@@ -364,7 +364,7 @@ img {
     height: 260px;
     overflow: hidden;
     position: relative;
-    width: 85%;
+    width: 75%;
   }
 
   .mobile_child_three p,
@@ -387,20 +387,19 @@ img {
     display: flex;
     flex-direction: column;
     font-family: "DM Sans", sans-serif;
-
     position: relative;
     text-align: center;
-    width: 85%;
+    width: 75%;
   }
 
   .mobile_child_four img {
     left: 25px;
     position: relative;
-    width: 280px;
+    width: 250px;
   }
 
   .title-two {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 500;
     position: relative;
     top: 15px;
@@ -418,7 +417,7 @@ img {
     line-height: 25px;
     position: relative;
     text-align: center;
-    width: 85%;
+    width: 75%;
   }
 
   .mobile_child_five p {
@@ -445,7 +444,7 @@ img {
     height: 200px;
     position: relative;
     text-align: left;
-    width: 85%;
+    width: 75%;
   }
   .mobile_child_six span {
     font-size: 2.8rem;
@@ -457,18 +456,18 @@ img {
 
   .mobile_child_seven {
     background-color: hsl(30, 71%, 93%);
+    border-radius: 10px;
     border-style: none;
     color: black;
     display: flex;
     flex-direction: column;
     font-family: "DM Sans", sans-serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 450;
-
     padding-bottom: 45px;
     padding: 10px;
     text-align: left;
-    width: 85%;
+    width: 70%;
   }
 
   .mobile_child_seven span {
@@ -485,7 +484,7 @@ img {
 
   .mobile_child_eight {
     height: 380px;
-    width: 95%;
+    width: 75%;
     background-color: hsl(40, 100%, 71%);
     font-family: "DM Sans", sans-serif;
     font-size: 2rem;
